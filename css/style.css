@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header */
+
+header{
+	position: absolute;
+	padding: 0px 1225px 5px 0px;
+	top: 10px;
+	left: 0px;
+	box-shadow: 0 2px 6px rgba(0,0,0,.5);
+}
+
+header form.header a.btnlogo{
+	position: absolute;
+	left: 12px;
+	top: 15px;
+}
+
+header form.header a.suivis{
+	top: 15px;
+	left: 50px;
+	color: black;
+	text-decoration: none;
+}
+
+header form.header a.forum{
+	top: 15px;
+	left: 105px;
+	color: black;
+	text-decoration: none;
+}
+
+header form.header a.btntroisptns{
+	position: absolute;
+	top: 15px;
+	left: 160px;
+}
+
+header form.header input{
+	position: absolute;
+	left: 417px;
+	top: 15px;
+	padding: 5px 180px 5px 4px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 2px;
+	border: none;
+	background-color: #f2f2f2;
+	outline: 2px solid;
+	outline-color: #dddddd;
+}
+
+header form.header input:hover{
+	position: absolute;
+	left: 417px;
+	top: 15px;
+	padding: 5px 180px 5px 4px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 2px;
+	border: none;
+	background-color: #f2f2f2;
+	outline: 2px solid;
+	outline-color: #969595;
+}
+
+header form.header input:focus{
+	position: absolute;
+	left: 417px;
+	top: 15px;
+	padding: 5px 180px 5px 4px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 2px;
+	border: none;
+	background-color: #f2f2f2;
+	outline: 2px solid;
+	outline-color: #4dff00;
+}
+
+header form.header button.btnsinscrire{
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 40px;
+	border-radius: 2px;
+	border: none;
+	background-color: #4dff00;
+	outline: none;
+}
+
+header form.header button.btnsinscrire:hover{
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 40px;
+	border-radius: 2px;
+	border: none;
+	background-color: #41d600;
+	outline: none;
+	cursor: pointer;
+}
+
+header form.header button.btnseco{
+	position: absolute;
+	top: 15px;
+	right: 150px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 40px;
+	border-radius: 2px;
+	border: none;
+	background-color: #4dff00;
+	outline: none;
+}
+
+header form.header button.btnseco:hover{
+	position: absolute;
+	top: 15px;
+	right: 150px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 40px;
+	border-radius: 2px;
+	border: none;
+	background-color: #41d600;
+	outline: none;
+	cursor: pointer;
+}
+
+/* Login on bouton actived */
+
+form.connexionactiver{
+	margin-top: 100px;
+	background-color: white;
+	padding: 40px 60px;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px rgba(0,0,0,.5);
+	min-width: 300px;
+}
+
+form.connexionactiver h2{
+	text-align: center;
+}
+
+form.connexionactiver.inputs{
+	display: flex;
+	--color-error: #ff1616;
+	flex-direction: color;
+}
+
+form.connexionactiver .inputs input[type="email"], input[type="password"]{
+	padding: 5px 180px 5px 4px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 2px;
+	border: none;
+	background-color: #f2f2f2;
+	outline: 2px solid;
+	outline-color: #dddddd;
+}
+
+form.connexionactiver .inputs input[type="email"]:hover, input[type="password"]:hover{
+	padding: 5px 180px 5px 4px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 2px;
+	border: none;
+	background-color: #f2f2f2;
+	outline: 2px solid;
+	outline-color: #969595;
+}
+
+form.connexionactiver .inputs input[type="email"]:focus, input[type="password"]:focus{
+	padding: 5px 180px 5px 4px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 2px;
+	border: none;
+	background-color: #f2f2f2;
+	outline: 2px solid;
+	outline-color: #4dff00;
+}
+
+form.connexionactiver .inputs small{
+	display: block;
+	white-space : nowrap;
+	position: absolute;
+	color: red;
+	visibility: hidden;
+}
+
+form.connexionactiver .inputs .uns{
+	display: block;
+	position: absolute;
+	top: 295px;
+}
+
+form.connexionactiver .inputs .deuxs{
+	position: absolute;
+	top: 373px;
+}
+
+form.connexionactiver .inputs i{
+	visibility: hidden;
+	color: red;
+}
+
+form.connexionactiver .inputs .uni{
+	position: absolute;
+	left: 800px;
+	top: 268px;
+}
+
+form.connexionactiver .inputs .deuxi{
+	position: absolute;
+	left: 800px;
+	top: 364px;
+}
+
+form.connexionactiver .inputs h4.emailmot, h4.motdepassemot{
+	font-size: 14px;
+	top: 210px;
+}
+
+form.connexionactiver p.inscription a.inscriptiontextbtn{
+	font-size: 13px;
+	margin-bottom: 20px;
+	color: #4dff00;
+	text-decoration: none
+}
+
+form.connexionactiver button{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 136px;
+	border-radius: 2px;
+	border: none;
+	background-color: #4dff00;
+	outline: none;
+}
+
+form.connexionactiver button:hover{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 136px;
+	border-radius: 2px;
+	border: none;
+	background-color: #41d600;
+	outline: none;
+	cursor: pointer;
+}
+
+form.connexionactiver{
+	visibility: hidden;
+}
